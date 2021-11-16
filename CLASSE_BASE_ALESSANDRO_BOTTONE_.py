@@ -52,9 +52,7 @@ class calcComb():
         '''
 
     def coeffBinom(n, k):
-        ''' 
-        implementare la formula del coefficiente binomiale a partire dal fattoriale
-        '''
+      P = n!/K!(n-K!)!
         pass
 
     # PERMUTAZIONI
@@ -63,7 +61,7 @@ class calcComb():
         '''
         restituire il numero di permutazioni SENZA ripetizione
         '''
-        return n!
+        return P = n! 
 
     def nPermutConRip(self):
         '''
@@ -71,12 +69,7 @@ class calcComb():
         '''
         return n! / h! k! s!
 
-    def permutSenzaRip(self):
-        '''
-        generare e restituire la lista di permutazioni SENZA ripetizione
-        '''
-        return 0
-
+ 
     def permutConRip(self):
         '''
         generare e restituire la lista di permutazioni CON ripetizione
@@ -89,13 +82,13 @@ class calcComb():
         '''
         restituire il numero di disposizioni semplici SENZA ripetizione
         '''
-        return n! / (n-k)!
+        return P = n! / (n-k)!
 
     def nDispSemplConRip(self):
         '''
         restituire il numero di disposizioni semplici CON ripetizione
         '''
-        return n**k
+        return P = n**k
 
     def dispSemplSenzaRip(self):
         '''
@@ -116,13 +109,13 @@ class calcComb():
         '''
         restituire il numero delle combinazioni SENZA ripetizione
         '''
-        return n! / k! (n-k)!
+        return P = n! / k! (n-k)!
 
     def nCombSemplConRip(self):
         '''
         restituire il numero delle combinazioni CON ripetizione
         '''
-        return (n + k - 1)! / k! (n-1)!
+        return P = (n + k - 1)! / k! (n-1)!
 
     def combSenzaRip(self):
         '''
