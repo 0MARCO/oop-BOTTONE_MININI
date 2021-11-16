@@ -15,11 +15,10 @@ class calcComb():
         return self.__listStringa
 
     def setStringa(self):
-        '''
-        modificare questo metodo in modo da verificare la coerenza delle variabili di
-        istanza presenti
-        '''
-        return 0
+        
+        self.__stringa = str 
+        
+        return self.__stringa
 
     def charRipetuti(self):
         '''
