@@ -61,13 +61,14 @@ class calcComb():
         '''
         restituire il numero di permutazioni SENZA ripetizione
         '''
-        return P = n! 
+        return  fattoriale(n) 
 
     def nPermutConRip(self):
         '''
         restituire il numero di permutazioni CON ripetizione
         '''
         return n! / h! k! s!
+        # return fattoriale(n) / fattoriale(h) ....
 
  
     def permutConRip(self):
@@ -82,7 +83,12 @@ class calcComb():
         '''
         restituire il numero di disposizioni semplici SENZA ripetizione
         '''
-        return P = n! / (n-k)!
+
+        return P = n! / (n-k)! 
+        # non sa cosa sia il punto esclaamtivo. Devi dichiarare una funzione fattoriale
+        # che prende in input n e restituisce il suo fattoriale.
+        # se vai più sopra ho scritto anche la dichiarazione, devi implementarla. 
+
 
     def nDispSemplConRip(self):
         '''
