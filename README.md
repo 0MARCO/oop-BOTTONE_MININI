@@ -1,18 +1,18 @@
-                                                                                   RUZZLE
-Legenda
-  1 Che cos' è Ruzzle
-  2 Come è stato progettato 
-  3 Regole del gioco
+# RUZZLE
+## Legenda
+ 1 Che cos' è Ruzzle
+ 2 Come è stato progettato 
+ 3 Regole del gioco
 
 
-  -PRIMO PARAGRAFO-
+### PRIMO PARAGRAFO-
     Ruzzle e’ un gioco interattivo online in cui l’obiettivo e’ quello di trovare il maggior numero di parole all'interno di una griglia in un tempo prestabilito 
     appariranno delle lettere all’interno della griglia che se utilizzate all’interno di una parola,
     andranno ad aumentare il punteggio che messo a confronto con quello dell’avversario(online) andra’ a determinare la vittoria o la sconfitta del  singolo round, 
     i round sono 3 e chi avra’ collezionato piu’ punti si aggiudichera’ la vittoria.
 
 
-  -SECONDO PARAGRAFO-
+ ### SECONDO PARAGRAFO
     Quest’anno sempre programmando in python abbiamo deciso di utilizzare la compresenza in matematica per creare un gioco interattivo,
     abbiamo prima seguito un percorso in matematica con la professoressa tripepi in cui abbiamo studiato il calcolo combinatorio, ovvero, 
     in quanti modi e’ possibile disporre una certa quantita’ di elementi su un determinato quantitativo di posti.
