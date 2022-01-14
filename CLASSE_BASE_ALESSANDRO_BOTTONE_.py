@@ -20,17 +20,10 @@ class calcComb():
         
         return self.__stringa
 
-    def charRipetuti(self):
-        '''
-        questo metodo deve creare un dictionary all'interno del quale la chiave deve essere
-        il singolo carattere, il valore deve essere il numero di ripetizioni di quel carattere
-        
-        esempi di dictionary sono presenti nel file elementi_base/dictionary.py
-        '''
 
-    def confUtil(self):
-        #qui andiamo a verificare (percorrendo la stringa dalla fine all'inizio eliminando l'ultimo carattere della parola contenuta nella riga del file) se la stringa che prendiamo in considerazione è presente nel file contenente tutte le parole della lingua italiana in quanto ruzzle richiede che le parole abbiano un senso compiuto
-        str= "pop"  # nel caso di ruzzle, str deve contenere l'attributo di istanza
+
+    def cerca(str):
+
         it = 'words.italian.txt' # è possibile aggiungere tante variabili quanti file di lingua si posseggono
 
         f = open(it, 'r')
@@ -44,15 +37,43 @@ class calcComb():
         verificare se la STRINGA attributo di istanza è presente
         nel file word.italian.txt 
         '''
+
+
+
+    def charRipetuti(self):
         pass
+        '''
+        questo metodo deve creare un dictionary all'interno del quale la chiave deve essere
+        il singolo carattere, il valore deve essere il numero di ripetizioni di quel carattere
+        
+        esempi di dictionary sono presenti nel file elementi_base/dictionary.py
+        '''
+
+    ############################CORREZIONE#####################################
+    '''
+    confUtil sta per configurazioni utili. Vuol dire che a partire  dalla stringa iniziale
+    deve trovare tutte le configurazioni utili, cioè tra tutte le configurazioni quelle che 
+    effettivamente hanno un senso compiuto. Dentro invece avete copiato solo il codice della funzione cerca.
+
+    Prima invece bisogna creare la lista di tutte le possibili configurazioni, dopo cercarle una ad una
+    dentro il file della lingua italiana.
+
+    '''
+
+    def confUtil(self):
+
+        pass
+
 
     def fattoriale(n):
         '''
         implementare una qualunque versione della funzione fattoriale
         '''
+        pass
 
     def coeffBinom(n, k):
-      P = n!/K!(n-K!)!
+      # P = n!/K!(n-K!)! per richiamare il fattoriale non puoi procedere con l'esclamativo,
+      # ma richiamare la funzione fattoriale che però non vedo implementata da nessuna parte
         pass
 
     # PERMUTAZIONI
@@ -67,7 +88,9 @@ class calcComb():
         '''
         restituire il numero di permutazioni CON ripetizione
         '''
-        return n! / h! k! s!
+        #return n! / h! k! s! stesso errore di prima, tra l'altro se leggete
+            #il commento che avevo fatto (sotto questo rigo) avevo anche indicato cosa bisognava
+            #restituire
         # return fattoriale(n) / fattoriale(h) ....
 
  
@@ -84,7 +107,7 @@ class calcComb():
         restituire il numero di disposizioni semplici SENZA ripetizione
         '''
 
-        return P = n! / (n-k)! 
+        #return P = n! / (n-k)! 
         # non sa cosa sia il punto esclaamtivo. Devi dichiarare una funzione fattoriale
         # che prende in input n e restituisce il suo fattoriale.
         # se vai più sopra ho scritto anche la dichiarazione, devi implementarla. 
@@ -94,7 +117,8 @@ class calcComb():
         '''
         restituire il numero di disposizioni semplici CON ripetizione
         '''
-        return P = n**k
+        P = n**k
+        return P  # in return non puoi scrivere anche "=" 
 
     def dispSemplSenzaRip(self):
         '''
@@ -115,13 +139,15 @@ class calcComb():
         '''
         restituire il numero delle combinazioni SENZA ripetizione
         '''
-        return P = n! / k! (n-k)!
+        pass # dopo aver implementato la funzione leva il pass
+        # return P = n! / k! (n-k)!  # leggi sopra
 
     def nCombSemplConRip(self):
         '''
         restituire il numero delle combinazioni CON ripetizione
         '''
-        return P = (n + k - 1)! / k! (n-1)!
+        #return P = (n + k - 1)! / k! (n-1)!
+        pass # dopo aver implementato la funzione leva il pass
 
     def combSenzaRip(self):
         '''
@@ -135,3 +161,5 @@ class calcComb():
         generare e restituire la lista delle combinazioni CON ripetizione
         '''
         return 0
+
+
