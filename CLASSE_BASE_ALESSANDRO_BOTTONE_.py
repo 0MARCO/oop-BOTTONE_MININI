@@ -77,7 +77,7 @@ class calcComb():
         pass
 
     def coeffBinom(n, k):
-      # P = fattoriale(n)/fattoriale(K) * fattoriale(n-fattoriale(K)) per richiamare il fattoriale non puoi procedere con l'esclamativo,
+       P = fattoriale(n)/fattoriale(K) * fattoriale(n-fattoriale(K)) #per richiamare il fattoriale non puoi procedere con l'esclamativo,
       # ma richiamare la funzione fattoriale che però non vedo implementata da nessuna parte
         return (P)
         pass
@@ -130,7 +130,7 @@ class calcComb():
         restituire il numero di disposizioni semplici CON ripetizione
         '''
         P = n**k
-        return P  # in return non puoi scrivere anche "=" 
+        return '='  # in return non puoi scrivere anche "=" 
 
     def dispSemplSenzaRip(self):
         '''
