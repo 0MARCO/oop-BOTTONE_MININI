@@ -77,8 +77,8 @@ class calcComb():
         pass
 
     def coeffBinom(n, k):
-       P = fattoriale(n)/fattoriale(K) * fattoriale(n-fattoriale(K)) #per richiamare il fattoriale non puoi procedere con l'esclamativo,
-      # ma richiamare la funzione fattoriale che però non vedo implementata da nessuna parte
+       P = fattoriale(n)/fattoriale(K) * fattoriale(n-fattoriale(K))    #per richiamare il fattoriale non puoi procedere con l'esclamativo,
+                                                                        # ma richiamare la funzione fattoriale che però non vedo implementata da nessuna parte
         return (P)
         pass
 
@@ -98,10 +98,10 @@ class calcComb():
         '''
         restituire il numero di permutazioni CON ripetizione
         '''
-        #return n! / h! k! s! stesso errore di prima, tra l'altro se leggete
-            #il commento che avevo fatto (sotto questo rigo) avevo anche indicato cosa bisognava
-            #restituire
-        # return fattoriale(n) / fattoriale(h) ....
+                         #return n! / h! k! s! stesso errore di prima, tra l'altro se leggete
+                         #il commento che avevo fatto (sotto questo rigo) avevo anche indicato cosa bisognava
+                         #restituire
+                        # return fattoriale(n) / fattoriale(h) ....
 
  
     def permutConRip(self):
@@ -119,10 +119,10 @@ class calcComb():
         restituire il numero di disposizioni semplici SENZA ripetizione
         '''
 
-        #return P = n! / (n-k)! 
-        # non sa cosa sia il punto esclaamtivo. Devi dichiarare una funzione fattoriale
-        # che prende in input n e restituisce il suo fattoriale.
-        # se vai più sopra ho scritto anche la dichiarazione, devi implementarla. 
+                         #return P = n! / (n-k)! 
+                         # non sa cosa sia il punto esclaamtivo. Devi dichiarare una funzione fattoriale
+                         # che prende in input n e restituisce il suo fattoriale.
+                         # se vai più sopra ho scritto anche la dichiarazione, devi implementarla. 
 
 
     def nDispSemplConRip(self):
@@ -130,7 +130,7 @@ class calcComb():
         restituire il numero di disposizioni semplici CON ripetizione
         '''
         P = n**k
-        return '='  # in return non puoi scrivere anche "=" 
+        return '='           # in return non puoi scrivere anche "=" 
 
     def dispSemplSenzaRip(self):
         '''
@@ -153,8 +153,8 @@ class calcComb():
         '''
         restituire il numero delle combinazioni SENZA ripetizione
         '''
-         # dopo aver implementato la funzione leva il pass
-        # return P = n! / k! (n-k)!  # leggi sopra
+                            # dopo aver implementato la funzione leva il pass
+                             # return P = n! / k! (n-k)!  # leggi sopra
 
     def nCombSemplConRip(self):
           calcComb.fattoriale(self.n)
@@ -162,8 +162,8 @@ class calcComb():
         '''
         restituire il numero delle combinazioni CON ripetizione
         '''
-        #return P = (n + k - 1)! / k! (n-1)!
-        pass # dopo aver implementato la funzione leva il pass
+                                #return P = (n + k - 1)! / k! (n-1)!
+        pass                    # dopo aver implementato la funzione leva il pass
 
     def combSenzaRip(self):
         '''
