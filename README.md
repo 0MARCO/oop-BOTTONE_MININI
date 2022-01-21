@@ -10,6 +10,7 @@
     Ruzzle è un gioco interattivo online in cui l’obiettivo è quello di trovare il maggior numero di parole all'interno di una griglia in un tempo prestabilito, 
     appariranno delle lettere all’interno della griglia che se utilizzate all’interno di una parola andranno ad aumentare il punteggio di ogni singolo giocatore che     messo a confronto con quello dell’avversario (online) andrà a determinare la vittoria o la sconfitta del giocatore in ogni singolo round. 
     I round sono 3 e chi alla fine avrà collezionato più punti si aggiudicherà la vittoria.
+    Ricordiamo che in RUZZLE, alcune delle lettere presenti nella tabella avranno un colore del riquadro diverso in quanto andranno a conferire più punteggio ad         una parola contenente quelle specifiche lettere.
 
 
  ### CONTESTO
