@@ -23,4 +23,5 @@
     mettendo tutto insieme riusciremo poi a creare il nostro gioco interattivo.
     Con l’aiuto di GitHub riusciamo a comunicare molto facilmente e a provare a scrivere con l’aiuto del professore il codice in questione.
     Il professor Mazzone ci sta aiutando scrivendo ogni funzione (da modificare naturalmente)  in poche righe di codice in modo da avere tutto piu’ chiaro e  poter     gestire meglio il codice finale in quanto creato da più pezzi.
-
+    
+   [REGOLECALCOLO COMBINATORIO]:(https://user-images.githubusercontent.com/75386222/150688639-b176985e-3fed-4804-9502-b29ccbb6eb94.jpg)
