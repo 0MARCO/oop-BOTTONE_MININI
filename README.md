@@ -1,9 +1,9 @@
 # RUZZLE
 ## In questa documentazione:
-  Che cos' è Ruzzle
-  Regole del gioco
-  Cosa abbiamo studiato per progettarlo 
-  La collaborazione con i professori
+  - Che cos' è Ruzzle
+  - Regole del gioco
+  - Cosa abbiamo studiato per progettarlo 
+  - La collaborazione con i professori
 
 
 ### DESCRIZIONE
