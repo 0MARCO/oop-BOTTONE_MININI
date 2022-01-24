@@ -9,9 +9,12 @@
 
 ### DESCRIZIONE
     Ruzzle è un gioco interattivo online in cui l’obiettivo è quello di trovare il maggior numero di parole all'interno di una griglia in un tempo prestabilito, 
-    appariranno delle lettere all’interno della griglia che se utilizzate all’interno di una parola andranno ad aumentare il punteggio di ogni singolo giocatore     che messo a confronto con quello dell’avversario (online) andrà a determinare la vittoria o la sconfitta del giocatore in ogni singolo round. 
+    appariranno delle lettere all’interno della griglia che se utilizzate all’interno di una parola andranno ad aumentare il punteggio di ogni singolo giocatore   
+    che messo a confronto con quello dell’avversario (online) andrà a determinare la vittoria o la sconfitta del giocatore in ogni singolo round. 
     I round sono 3 e chi alla fine avrà collezionato più punti si aggiudicherà la vittoria.
-    Ricordiamo che in RUZZLE, alcune delle lettere presenti nella tabella avranno un colore del riquadro diverso in quanto andranno a conferire più punteggio ad     una parola contenente quelle specifiche lettere. L'utente ha la possibilità di partecipare a tornei regionali e nazionali e ha la possibilità di avanzare         di livello in quanto ogni partita vinta darà ad esso dei punti mentre ogni partita persa farà rimanere invariato il suo quantitativo di punti.
+    Ricordiamo che in RUZZLE, alcune delle lettere presenti nella tabella avranno un colore del riquadro diverso in quanto andranno a conferire più punteggio ad     
+    una parola contenente quelle specifiche lettere. L'utente ha la possibilità di partecipare a tornei regionali e nazionali e ha la possibilità di avanzare       
+    di livello in quanto ogni partita vinta darà ad esso dei punti mentre ogni partita persa farà rimanere invariato il suo quantitativo di punti.
 
 
  ### CONTESTO
@@ -23,8 +26,10 @@
     ognuno proverà a scrivere delle righe di codice e si prenderanno i migliori codici relativi ad ogni funzione necessaria,
     mettendo tutto insieme riusciremo poi a creare il nostro gioco interattivo.
     Con l’aiuto di GitHub riusciamo a comunicare molto facilmente e a provare a scrivere con l’aiuto del professore il codice in questione.
-    Il professor Mazzone ci sta aiutando scrivendo ogni funzione (da modificare naturalmente)  in poche righe di codice in modo da avere tutto piu’ chiaro e         poter gestire meglio il codice finale in quanto creato da più pezzi.
+    Il professor Mazzone ci sta aiutando scrivendo ogni funzione (da modificare naturalmente)  in poche righe di codice in modo da avere tutto piu’ chiaro e        
+    poter gestire meglio il codice finale in quanto creato da più pezzi.
     
   ### REGOLE CALCOLO COMBINATORIO
-    PER VISUALIZZARE LE REGOLE AL SEGUENTE LINK, EVIDENZIARE CON IL MOUSE IL LINK, CLICCARE IL TASTO DESTRO QUINDI FARE CLICK NUOVAMENTE SULLA DICITURA: "Vai         alla pagina https://..."
+    PER VISUALIZZARE LE REGOLE GUARDARE IL SEGUENTE LINK, EVIDENZIARE CON IL MOUSE IL LINK, CLICCARE IL TASTO DESTRO, FARE COPIA QUINDI FARE CLICK NUOVAMENTE SULLA DICITURA: 
+    "Vai         alla pagina https://..."
     https://user-images.githubusercontent.com/75386222/150688639-b176985e-3fed-4804-9502-b29ccbb6eb94.jpg 
