@@ -30,6 +30,6 @@
     poter gestire meglio il codice finale in quanto creato da più pezzi.
     
   ### REGOLE CALCOLO COMBINATORIO
-    PER VISUALIZZARE LE REGOLE GUARDARE IL SEGUENTE LINK, EVIDENZIARE CON IL MOUSE IL LINK, CLICCARE IL TASTO DESTRO, FARE COPIA E INCOLLATELO SUL BROWSER. 
-    
-    https://user-images.githubusercontent.com/75386222/150688639-b176985e-3fed-4804-9502-b29ccbb6eb94.jpg 
+  ![Image text](https://www.studenti.it/images/matematica/pictures/4131fo/images/FO.4.13.1_9817.png)
+  
+ 
