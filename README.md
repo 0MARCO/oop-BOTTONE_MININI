@@ -1,4 +1,6 @@
+
 # RUZZLE
+
 ## In questa documentazione:
   - Che cos' è Ruzzle
   - Regole del gioco
@@ -32,25 +34,25 @@
   ### REGOLE CALCOLO COMBINATORIO
   ![Image text](https://www.studenti.it/images/matematica/pictures/4131fo/images/FO.4.13.1_9817.png)
    
-  IL CALCOLO COMBINATORIO è, in matematica, ciò che ci consente di determinare in quanti e in quali modi è possibile ordinare o raggruppare un     determinato numero di elementi su un determinato numero di posti.
+  IL CALCOLO COMBINATORIO è, in matematica, ciò che ci consente di determinare in quanti e in quali modi è possibile ordinare o raggruppare un determinato     numero di elementi su un determinato numero di posti.
   
   Il calcolo combinatorio è un tipo di calcolo che comprende vari metodi tra i quali:
   
-  -![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15` **PERMUTAZIONI SEMPLICI E PERMUTAZIONI CON RIPETIZIONE**
+  - -text in red **PERMUTAZIONI SEMPLICI E PERMUTAZIONI CON RIPETIZIONE**
   
      - Le PERMUTAZIONI SEMPLICI di "n" elementi distinti, sono tutti i gruppi formati dagli "n" elementi, che differiscono per il loro ORDINE.
      
-     - Le PERMUTAZIONI CON RIPETIZIONE di "n" elementi distinti, sono tutti i gruppi formati dagli "n" elementi, ALCUNI RIPETUTI, che                  differiscono per il loro ORDINE.
+     - Le PERMUTAZIONI CON RIPETIZIONE di "n" elementi distinti, sono tutti i gruppi formati dagli "n" elementi, ALCUNI RIPETUTI, che                                    differiscono per il loro ORDINE.
     
   - **DISPOSIZIONI SEMPLICI e DISPOSIZIONI CON RIPETIZIONE**
   
-     - Le DISPOSIZIONI SEMPLICI di "n" elementi su "k" posti, sono  tutti i gruppi di "k" elementi scelti tra gli "n" che si differenziano per          ALMENO un elemento o per l'ordine con cui gli elementi sono disposti.
+     - Le DISPOSIZIONI SEMPLICI di "n" elementi su "k" posti, sono  tutti i gruppi di "k" elementi scelti tra gli "n" che si differenziano per ALMENO un        elemento o per l'ordine con cui gli elementi sono disposti.
      
-     - LE DISPOSIZIONI CON RIPETIZIONE di "n" elementi su "k" posti, sono tutti i gruppi di "k" elementi,ALCUNI RIPETUTI, scelti fra gli "n"              che si differenziano per ALMENO un elemento o per l'ordine con cui gli elementi sono disposti.
+     - LE DISPOSIZIONI CON RIPETIZIONE di "n" elementi su "k" posti, sono tutti i gruppi di "k" elementi,ALCUNI RIPETUTI, scelti fra gli "n" che si        differenziano per ALMENO un elemento o per l'ordine con cui gli elementi sono disposti.
      
   - **COMBINAZIONI SEMPLICI E COMBINAZIONI CON RIPETIZIONE**
   
-      - Le COMBINAZIONI SEMPLICI di "n" elementi su "k" posti, sono tutti i gruppi di "k" elementi scelti tra gli "n" che differiscono per              almeno un elemento E NON PER L'ORDINE.
+      - Le COMBINAZIONI SEMPLICI di "n" elementi su "k" posti, sono tutti i gruppi di "k" elementi scelti tra gli "n" che differiscono per almeno un         elemento E NON PER L'ORDINE.
      
-     - Le COMBINAZIONI CON RIPETIZIONE di "n" elementi su "k" posti, sono tutti i gruppi di "k" elementi scelti tra gli "n", ALCUNI RIPETUTI,          che differiscono per almeno un elemento E NON PER L'ORDINE. 
+     - Le COMBINAZIONI CON RIPETIZIONE di "n" elementi su "k" posti, sono tutti i gruppi di "k" elementi scelti tra gli "n", ALCUNI RIPETUTI, che              differiscono per almeno un elemento E NON PER L'ORDINE. 
   
