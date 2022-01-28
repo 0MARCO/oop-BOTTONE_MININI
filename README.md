@@ -34,7 +34,7 @@
   ### REGOLE CALCOLO COMBINATORIO
   ![Image text](https://www.studenti.it/images/matematica/pictures/4131fo/images/FO.4.13.1_9817.png)
    
-  IL CALCOLO COMBINATORIO è, in matematica, ciò che ci consente di determinare in quanti e in quali modi è possibile ordinare o raggruppare un determinato     numero di elementi su un determinato numero di posti.
+  Il **CALCOLO COMBINATORIO** è, in matematica, ciò che ci consente di determinare in quanti e in quali modi è possibile ordinare o raggruppare un determinato     numero di elementi su un determinato numero di posti.
   
   Il calcolo combinatorio è un tipo di calcolo che comprende vari metodi tra i quali:
   
