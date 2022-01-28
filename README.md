@@ -38,7 +38,7 @@
   
   Il calcolo combinatorio è un tipo di calcolo che comprende vari metodi tra i quali:
   
-  - -text in red **PERMUTAZIONI SEMPLICI E PERMUTAZIONI CON RIPETIZIONE**
+  - **PERMUTAZIONI SEMPLICI E PERMUTAZIONI CON RIPETIZIONE**
   
      - Le PERMUTAZIONI SEMPLICI di "n" elementi distinti, sono tutti i gruppi formati dagli "n" elementi, che differiscono per il loro ORDINE.
      
