@@ -51,6 +51,7 @@
      BLOCCO "INIZIALIZZAZIONE": è il blocco che indica la creazione di interfaccia di gioco all'inizio di ognuno dei 3 round con conseguente avvio del          countdown del tempo (2.30 min).
      BLOCCHI "PUNTEGGIO" E "NESSUN PUNTEGGIO": sono i blocchi che permettono di tornare all'inizio del ciclo con seguente verifica della disponibilità di 
      tempo.
+     
 
  ### CONTESTO
     Quest’anno sempre programmando in Python abbiamo deciso di utilizzare la compresenza in matematica per creare un gioco interattivo,
