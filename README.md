@@ -9,15 +9,48 @@
   - Regole del calcolo combinatorio
 
 
-### DESCRIZIONE
-    Ruzzle è un gioco interattivo online in cui l’obiettivo è quello di trovare il maggior numero di parole all'interno di una griglia in un tempo prestabilito, 
-    appariranno delle lettere all’interno della griglia che se utilizzate all’interno di una parola andranno ad aumentare il punteggio di ogni singolo giocatore   
-    che messo a confronto con quello dell’avversario (online) andrà a determinare la vittoria o la sconfitta del giocatore in ogni singolo round. 
+### DESCRIZIONE DEL GIOCO
+    Ruzzle è un gioco interattivo online, dove, l'utente, che ha la possibilità di salire di livello nel suo percorso di gioco, ha l’obiettivo di 
+    trovare, nell'ambito di una partita contro un altro giocatopre oppure contro il computer, il maggior numero di parole all'interno di una griglia in 
+    un 
+    tempo      
+    prestabilito, 
+    appariranno delle lettere all’interno della griglia che se utilizzate all’interno di una parola andranno ad aumentare il punteggio di ogni singolo 
+    giocatore   
+    che, messo a confronto con quello dell’avversario (o del computer), andrà a determinare la vittoria o la sconfitta del giocatore in ogni singolo 
+    round.
+    
+    Ci sara una "schermata home" ad accogliere l'utente, nella schermata home, quest'ultimo potrà scegliere se giocare online (se munito di WI-FI) oppure 
+    contro il computer.
+    Se sceglierà di giocare online, dovrà attendere un tempo che si aggira intorno ai 10 secondi nei quali avverrà la ricerca di un avversario avente il 
+    suo stesso livello oppure un livello simile
+    
+  **QUANTI ROUND CI SONO IN OGNI PARTITA?**
     I round sono 3 e chi alla fine avrà collezionato più punti si aggiudicherà la vittoria.
-    Ricordiamo che in RUZZLE, alcune delle lettere presenti nella tabella avranno un colore del riquadro diverso in quanto andranno a conferire più punteggio ad     
-    una parola contenente quelle specifiche lettere. L'utente ha la possibilità di partecipare a tornei regionali e nazionali e ha la possibilità di avanzare       
+    
+  **COME FUNZIONA IL CONTEGGIO DEI PUNTI?**
+    I giocatori accumuleranno punti in base alla quantita di parole trovate e in base alla lunghezza di esse (una parola più lunga e ricercata conferirà 
+    al giocatore un punteggio naturalmente più alto rispetto ad una parola semplice dalla breve lunghezza). 
+    Ricordiamo inoltre che in RUZZLE, alcune delle lettere presenti nella tabella, avranno un colore del riquadro diverso in quanto potranno svolgere 
+    diverse funzioni come quella di conferire più punti ad una parola contenente quella determinata lettera oppure dare un bonus di tempo da sfruttare       per trovare altre parole.
+    Alla fine di ogni singolo round, al gocatore apparirà una schermata dove potrà vedere i punti accumulati.
+    
+  **QUANTO TEMPO SI HA A DISPOSIZIONE PER OGNI ROUND?**
+    Il giocatore, ha a disposzione 2 minuti e mezzo per ogni round senza considerare la possibile apparizione dei bonus di tempo.
+    
+  **COME FUNZIONA L'AVANZAMENTO DI LIVELLO?**
+    L'utente ha la possibilità di 
+    avanzare       
     di livello in quanto ogni partita vinta darà ad esso dei punti mentre ogni partita persa farà rimanere invariato il suo quantitativo di punti.
+    Con l'avanzare di livello, l'utente avrà la possibilità di accedere a toreni esclusivi contro altri giocatori che lo porteranno ad ottenere               molteplici ricompense sottoforma di diamanti, monete, ecc... che serviranno nel gioco ad acquistare delle abilità da utilizzare durante i round.
+    
+  **C'E' UNO SHOP ALL'INTERNO DEL GIOCO?**
+    Certo, e' presente uno shop all'interno del gioco dove, tramite soldi reali, è possibile acquistare le monete e i diamanti di cui parlavamo prima.
 
+ ### SPIEGAZIONE DEI BLOCCHI DEL DIAGRAMMA DI FLUSSO 
+     BLOCCO "INIZIALIZZAZIONE": è il blocco che indica la creazione di interfaccia di gioco all'inizio di ognuno dei 3 round con conseguente avvio del          countdown del tempo (2.30 min).
+     BLOCCHI "PUNTEGGIO" E "NESSUN PUNTEGGIO": sono i blocchi che permettono di tornare all'inizio del ciclo con seguente verifica della disponibilità di 
+     tempo.
 
  ### CONTESTO
     Quest’anno sempre programmando in Python abbiamo deciso di utilizzare la compresenza in matematica per creare un gioco interattivo,
